@@ -1,0 +1,23 @@
+Source: rmextract
+Section: science
+Priority: optional
+Maintainer: Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>
+Build-Depends:
+ debhelper (>=9),
+ dh-python,
+ python-all (>= 2.6.6-3~),
+ python-setuptools
+Standards-Version: 3.9.7
+Homepage: https://github.com/lofar-astron/RMextract/
+X-Python-Version: >= 2.6
+Vcs-Git: https://github.com/kernsuite-debian/rmextract
+Vcs-Browser: https://github.com/kernsuite-debian/rmextract
+
+Package: rmextract
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: LOFAR solutions tool (Python 2)
+ extract TEC, vTEC, Earthmagnetic field and Rotation Measures from GPS and WMM
+ data for radio interferometry observations
+ .
+ This package installs the library for Python 2.
