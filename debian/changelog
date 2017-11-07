@@ -1,3 +1,10 @@
+rmextract (0.1-1kern1) xenial; urgency=medium
+
+  * make debian files mit
+  * add watch file
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 07 Nov 2017 11:10:58 +0200
+
 rmextract (0.1-1) xenial; urgency=medium
 
   * Initial release
