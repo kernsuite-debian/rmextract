@@ -1,3 +1,9 @@
+rmextract (0.1-1kern2) bionic; urgency=medium
+
+  * Make new upstream release for bionic
+
+ -- KERN packaging <packaging@kernsuite.info>  Fri, 25 May 2018 14:17:44 +0000
+
 rmextract (0.1-1kern1) xenial; urgency=medium
 
   * make debian files mit
