@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-import PosTools
-import getIONEX as ionex;
+from RMextract import PosTools
+from RMextract import getIONEX as ionex;
 import os
 import numpy as np
 from math import *
@@ -8,15 +8,14 @@ from datetime import date
 
 
 import EMM.EMM as EMM
-
 import math
 
 
 ION_HEIGHT=PosTools.ION_HEIGHT
 #####################  main processing function #####################
 def getRM(MS=None,
-           server="ftp://ftp.unibe.ch/aiub/CODE/",
-           prefix='CODG',
+           server="ftp://cddis.gsfc.nasa.gov/gnss/products/ionex/",
+           prefix='codg',
            ionexPath="IONEXdata/",
            earth_rot=0,
            timerange=0,
