@@ -1,0 +1,13 @@
+diff --git a/setup.py b/setup.py
+index 7e4c64e..b691819 100644
+--- a/setup.py
++++ b/setup.py
+@@ -20,7 +20,7 @@ if "--add-iri" in sys.argv:
+ 
+ 
+ setup(name='RMextract',
+-version='0.1',
++version='0.4',
+       ext_modules=ext,
+       packages= packages,
+       package_data={'EMM':['*COF'],
