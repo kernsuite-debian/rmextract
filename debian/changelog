@@ -1,3 +1,11 @@
+rmextract (0.4-1kern1) bionic; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * New upstream version 0.4
+  * Add python3 support
+
+ -- KERN packaging <packaging@kernsuite.info>  Mon, 01 Jun 2020 13:06:35 +0200
+
 rmextract (0.2-1kern1) bionic; urgency=medium
 
   * Update watch file
